@@ -21,10 +21,3 @@ class Body extends Head {
         return "I have stomach";
     }
 }
-
-
-$parts = new Body(); # An Object of Employee
-echo $parts->chest()."\n";
-echo $parts->stomach()."\n";
-echo $parts->eyes()."\n";
-echo $parts->ears()."\n";
